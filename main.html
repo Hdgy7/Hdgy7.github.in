@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>ABCD COLLEGE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body  bgcolor=white>
+<div class=h1>
+<header>
+<div class=logo align=center>ABCD Arts&science college</div>
+<div class=l1 align=center>(affiliated to XYZ university)</div>
+</div><div class=ad align=center>
+Mail:abcdarts&sciencecollege@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    contact:1234567890
+</header></div>
+<div >
+<center><img src="1.png" id="adbanner" width="100%" height="100%" align=center></center>
+</div>
+<div  class=ra align=center>
+<a href=result.html><button class=btn>RESULT</button></a>&nbsp;&emsp;<a href=admission.html><button class=btn>ADMISSION</button></a>
+</div>
+<div class=about>
+<h2>ABOUT US</h2>
+<div class=abtcnt>
+<p>ABCD Arts & Science College established in the Academic year 2020. The college is the meticulously managed by the ABCD Educational Trust with the primary aim of education to the people of the rural areas who have a dream for good and higher education at reasonable cost. This college is purely self-finance and the Co-educational institution. The motto of the college is “Lead to lluminate" This premier institution is run entirely as a non-profit one. Admission is purely on merit basis.</p>
+</div>
+</div>
+<div class=courses><h2>
+UG COURSES</h2>
+<div class=ug >
+<p>B.Sc Information Technology&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;B.Sc Electronics&Communication </P>
+<p>B.Sc Physical Education&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;B.Sc Animation and Game Designing </P>
+<p>B.Sc Computer Science &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;B.com Computer Application</P>
+<h2>
+PG COURSES</h2>
+<p>M.Sc Computer Science&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;M.B.A </P>
+<p>M.Com 	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</P>
+<div align=center><a href=admission.html><button class=btns >CLICK TO APPLY</button></a></div>
+</div>
+</div>
+<div class=vismis>
+<h2>Vision</h2>
+<img src=vision.png class=vis><br><br><br>
+<b><p>The College is to empower the student’s community by developing human  capabilities through quality education, making them responsible so that they can work for the development of the society.</p>
+<br>
+<br><h2>Mission</h2><img src=mission.png class=mis>
+<p>To enhance quality of life through the development of individuals.To equip the students
+with the skill of problem solving abilities.
+To uplift the economically poor and first generation learners.
+To enable the student to contribute in the economic, political and social development.
+<p></div>
+<div class=enquiry>
+<h2>Enquiry</h2>
+<label>Name<span class=man>*</span><label><br>
+<input type=text ><br><br>
+<label>Enter your Phone Number</label><br>
+<input type=text ><br><br>
+<label>Email Address<span class=man>*</span></label><br>
+<input type=text ><br><br>
+<label>Message</label><br>
+<input type=textarea><br><br>
+<button><b>Send Message</b></button>
+</div>
+<div class=footer>
+<div>
+<p class=map><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15720.659040609971!2d78.12653808198552!3d9.920232583055984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c5af176675cf%3A0xf8a1d8ad514524b8!2sAnna%20Nagar%2C%20Sathamangalam%2C%20Tamil%20Nadu%20625020!5e0!3m2!1sen!2sin!4v1686491641392!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+<h4>Our Location</h4>
+<p class=add>S.No 44/3,Srinivasa Nagar,Sathamangalam,Annanagar,Madurai-625020</p>
+<p>Copyright<span class=copy><b>&#169</b></span> 2023 ABCD College.All rights unreserved </p></div>
+<h6>CONTACT:+91 1234567890</h6>
+</div>
+<script>
+setInterval(rotate,3*500);
+var thisad=0;
+var adimages=new Array("1.png","3.png","5.png","6.png","7.png");
+function rotate()
+{
+thisad++;
+if(thisad==adimages.length)
+{
+thisad=0;
+}
+document.getElementById("adbanner").src=adimages[thisad];
+}
+</script>

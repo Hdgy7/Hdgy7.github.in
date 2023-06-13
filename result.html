@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>RESULT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body  bgcolor=white>
+<div class=h1>
+<header>
+<div class=logo align=center>ABCD Arts&science college</div>
+<div class=l1 align=center>(affiliated to XYZ university)</div>
+</div><div class=ad align=center>
+Mail:abcdarts&sciencecollege@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    contact:1234567890
+</header></div>
+<div>
+<form   >
+<div class=res>
+<h2>Result</h2>
+<label>Regno:<label>
+<input type=text placeholder=regno id=reg>
+<br><br>
+<label>D.O.B:</label>
+<input type=date id=dob><br><br>
+<input type=reset value=Reset id=btns>
+<input type="button" value="Submit" onclick="myfunc()" id=btns>
+<p class=ex> Using this example to check the result regno:123456 dob:01-06-23</p>
+</form></div>
+<script>
+function myfunc(){
+var reg=document.getElementById("reg").value;
+var dob=document.getElementById("dob").value;
+if(reg=="123456" && dob=="2023-06-01")
+{
+parent.location="results.html";
+}
+else
+{
+alert("Enter the correct details");
+}
+}
+</script>
+
+
